@@ -276,4 +276,5 @@ if (message.content.startsWith(prefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT12_TOKEN);
+ 
